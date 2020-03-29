@@ -1,0 +1,30 @@
+.calculator {
+    width: 150px;
+}
+
+.numpad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.numpad button {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 21%;
+    margin: 1px;
+}
+
+.screen {
+    width: 100%;
+    resize: none;
+    height: 40px;
+    padding: 10px;
+    overflow-y: hidden;
+    border: none;
+}
+
+#output {
+    height: 30px;
+    text-align: right;
+}
