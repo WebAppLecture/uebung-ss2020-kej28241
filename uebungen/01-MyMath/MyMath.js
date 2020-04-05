@@ -14,7 +14,7 @@ export class MyMath {
     constructor(value) {
         // 'this' referenziert den Kontext in dem die aktuelle Funktion aufgerufen wird. 
         // Hier referenziert es die Instanz der Klasse MyMath die wir gerade erstellen.
-        // mit 'value * 1' erzwingen wir das value als number gelesen wird.
+        // mit 'value * 1' erzwingen wir, dass value als number gelesen wird.
         this.value = value * 1; 
     }
 
@@ -42,5 +42,3 @@ export class MyMath {
 
     }
 }
-
-window.MyMath = MyMath; // Fügt die Klasse MyMath zum globalen Namespace hinzu, damit ihr sie in der Browserkonsole hernehmen könnt.
