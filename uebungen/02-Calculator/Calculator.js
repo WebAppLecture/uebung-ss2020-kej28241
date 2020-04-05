@@ -2,17 +2,7 @@ import {MyMath} from "../01-MyMath/MyMath.js";
 
 export class Calculator {
 
-    constructor(numpad, screen, output) {
-
-        this.setupNumPad();
-    }
-
-    print(string) {
-
-    }
-
-    printSolution(string) {
-
+    constructor(numpad, outputCalculation, outputSolution) {
     }
 
     setupNumPad() { 
@@ -23,11 +13,11 @@ export class Calculator {
     
     }
 
-    calculate() {
+    print(string) {
 
     }
 
-    delete() {
+    printSolution(string) {
 
     }
 
@@ -36,7 +26,3 @@ export class Calculator {
     }
 
 }
-
-window.Calculator = Calculator;
-
-window.calc = new Calculator(document.querySelector(".numpad"), document.querySelector("#input"), document.querySelector("#output"));

@@ -1,17 +1,14 @@
 .calculator {
     width: 150px;
+    border: 1px dashed black;
 }
 
 .numpad {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
+    min-height: 100px;
 }
 
 .numpad button {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 21%;
     margin: 1px;
 }
 
@@ -27,4 +24,15 @@
 #output {
     height: 30px;
     text-align: right;
+}
+
+.flex-4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-4 > * {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 21%;
 }
