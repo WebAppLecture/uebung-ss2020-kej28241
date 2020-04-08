@@ -1,12 +1,12 @@
 body {
-    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'calibri', bolder;
     color: var(--text-color);
-    text-shadow: 0 0 1vh var(--text-color);
+    text-shadow: 1 0 10vh var(--text-color);
     background: linear-gradient(
         45deg, 
-        var(--red) 66.2%,
-        var(--dirty-olive) 70%, 
-        var(--red) 100%
+        var(--red) 16.2%,
+        var(--dirty-olive) 40%, 
+        var(--red) 80%
         );
 }
 
@@ -53,7 +53,7 @@ body {
 .menu > ul {
     padding-inline-start: 0;
 
-    font-family: monospace;
+    font-family: arial;
     text-transform: uppercase;
     text-align: center;
     font-size: 2vh;
