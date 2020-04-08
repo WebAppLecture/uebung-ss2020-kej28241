@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+:root {
+    --text-color: rgb(0, 0, 0);
+    --dirty-olive: rgba(247, 231, 7, 0.87);
+    --red: rgb(245, 20, 20);
+    --dark-red: rgb(155, 28, 28);
+    --green: #fffb0f;
+}
+
